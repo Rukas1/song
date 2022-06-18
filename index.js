@@ -7,6 +7,7 @@ window.addEventListener("load", () => {
 })
 
 const audio = new Audio("./music.mp3");
+audio.loop = true;
 const btn = document.querySelector("#play");
 const imageBtn = document.querySelector("#playImg");
 
